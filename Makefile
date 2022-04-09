@@ -9,3 +9,6 @@ link:
 
 test:
 	PYTHONPATH=. py.test
+
+lint:
+	flake8 hello_world test
